@@ -79,26 +79,7 @@ nav li a
     margin-top: 20px;
     width: 100%;
 }
-/*mobaile device resposive works*/
 
-@media screen and (max-width: 576px) {
-    header{
-        padding: 10px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    header{
-        padding: 40px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
 /*heder section finish*/
 
 main {
@@ -123,7 +104,7 @@ main {
 .teams-content
 {
     padding-left: 70px;
-    padding-right: 50px;
+    padding-right: 70px;
 
 }
 .list
@@ -142,4 +123,25 @@ main {
 .teams-description
 {
     color: #727272;
+}
+/*mobaile device resposive works*/
+
+@media screen and (max-width: 576px) {
+    header, .teams-container{
+        padding: 10px;
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header, .teams-container{
+        padding: 40px;
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
+    
 }
