@@ -25,7 +25,8 @@ nav li
     list-style: none;
     margin: 30px;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
+   text-align: center;
     
 }
 nav li a
@@ -36,7 +37,7 @@ nav li a
 }
 .nav-title
 {
-    font-size: 45px;
+    font-size: 50px;
     color: #131313;
     font-weight: 700;
 }
@@ -61,4 +62,40 @@ nav li a
     text-align: center;
     line-height: 26px;
 }
+.primary-btn
+{
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px ;
+    color: #fff;
+    background-color:#FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.banner-img
+{
+    margin-top: 20px;
+    width: 100%;
+}
+/*mobaile device resposive works*/
 
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
