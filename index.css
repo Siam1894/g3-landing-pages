@@ -243,6 +243,25 @@ main {
 {
     width:165px;
 }
+/*footer section*/
+footer{
+margin-left: 340px;
+margin-right: 340px;
+margin-bottom:216px ;
+}
+.footer-description{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px;
+}
+.footer-sections{
+    margin-top: 100px;
+    background-color:#FFF4E7;
+    height: 100px;
+    width: 1200px;
+    text-align: center;
+    
+}
 
 /*mobaile device resposive works*/
 
@@ -283,10 +302,20 @@ main {
     gap: 20px;
  
 }
-
- 
-    
+.footer-sections{
+    width: 300px;
+    height: 200px;
 }
+
+footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:50px ; 
+}
+.footer-description{
+    padding: 50px;
+}
+
 @media screen and (min-width: 576px) and (max-width: 960px) {
     header, .teams-container{
         padding: 40px;
